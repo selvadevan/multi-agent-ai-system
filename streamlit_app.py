@@ -703,7 +703,7 @@ def main():
            chromadb==0.5.11
            streamlit
            crewai==0.186.1
-           crewai-tools==0.9.1
+           crewai-tools==0.71.0
            python-docx
            python-dotenv
            rich==13.7.1
