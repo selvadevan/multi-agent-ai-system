@@ -695,32 +695,6 @@ def main():
         4. **View Results**: See structured outputs in columns.
         5. **Download DOCX**: Get a professional Word report if enabled.
 
-        ### Deployment on Streamlit Cloud
-        1. Save this as `app.py`.
-        2. Create `requirements.txt`:
-           ```
-           pysqlite3-binary==0.5.4
-           chromadb==0.5.11
-           streamlit
-           crewai==0.186.1
-           crewai-tools==0.71.0
-           python-docx
-           python-dotenv
-           rich==13.7.1
-           ```
-        3. Create `runtime.txt`:
-           ```
-           python-3.11
-           ```
-        4. Create `packages.txt`:
-           ```
-           libsqlite3-dev
-           sqlite3
-           ```
-        5. Push to GitHub repo.
-        6. Connect to [Streamlit Cloud](https://share.streamlit.io) and deploy.
-        7. For secrets: Add `GROQ_API_KEY` to Streamlit secrets.toml in production.
-
         ### Notes
         - Analysis takes ~3-4 minutes due to rate limiting.
         - Verbose output is disabled to keep the UI clean.
@@ -730,3 +704,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
