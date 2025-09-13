@@ -1,6 +1,6 @@
 streamlit
-crewai
+crewai==0.81.2
 crewai-tools
 python-docx
 python-dotenv
-
+chromadb==0.5.3
